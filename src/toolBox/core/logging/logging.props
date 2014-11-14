@@ -1,0 +1,40 @@
+# Defines the logging properties used in toolBox
+#
+# Author: jiangkai
+# Version: 
+
+# decide whether the logging function was to be used
+# on indicates that the function is to be used
+# off indicates the log function is ignored
+function=off
+
+# the logging level that log message must have at least in order to appear in
+# in the log file
+MinLevel=INFO
+
+# whether to redirect standard output to the log streams
+# 1 indicates to redirect otherwise not
+StdoutRedirect=1
+
+# whether to redirect standard error to the log streams
+# 1indicates to redirect otherwise not
+stderrRedirect=1
+
+# whether to use the file log function
+# 1 indicates to redirect otherwise not
+fileLogger=1
+
+# whether to use the console log function
+# 1 indicates to redirect otherwise not
+consoleLogger=0
+
+# whether to use the window log function
+# 1 indicates to redirect otherwise not
+windowLogger=1
+
+# the default date format
+DateFormat=yyyy-MM-dd HH:mm:ss
+
+# the default log file's path
+LogFilePath=%h/toolBox_%d.log
+
